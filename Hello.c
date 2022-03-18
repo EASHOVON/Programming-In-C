@@ -11,5 +11,16 @@ int main(){
     char star = '*';
     printf("Star is %c \n", star);
 
+    int roll;
+    printf("enter roll");
+    scanf("%d", &roll);
+    printf("roll is : %d", roll);
+
+    int a, b;
+    printf("Enter a");
+    scanf("%d", &a);
+    printf("Enter b");
+    scanf("%d", &b);
+
     return 0;
 }
