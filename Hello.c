@@ -2,7 +2,14 @@
 
 int main(){
 
-    printf("I Love My Country, Bangladesh");
+    int age = 23;
+    printf("My age is %d \n", age);
+
+    float pi = 3.14;
+    printf("Pi value is %f \n", pi);
+
+    char star = '*';
+    printf("Star is %c \n", star);
 
     return 0;
 }
