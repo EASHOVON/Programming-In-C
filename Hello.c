@@ -22,8 +22,28 @@ int main(){
     printf("Enter b");
     scanf("%d", &b);
 
-    // int sum = a + b;
+    int sum = a + b;
     printf("sum is : %d", a+b);
+
+
+
+/* Write a program to calculate area of a circle.
+(Side is given)
+ */
+    float side;
+    printf("Enter a side");
+    scanf("%f", &side);
+    printf("Your area is: %f", side * side);
+
+
+    /* Write a program to calculate area of a circle.
+    (radius is given)
+     */
+
+    float radius;
+    printf("Enter a Radius");
+    scanf("%f", &radius);
+    printf("Your area of a circle : %f", 3.14 * radius * radius);
 
     return 0;
 }
