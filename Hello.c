@@ -14,13 +14,16 @@ int main(){
     int roll;
     printf("enter roll");
     scanf("%d", &roll);
-    printf("roll is : %d", roll);
+    printf("roll is : %d \n", roll);
 
     int a, b;
     printf("Enter a");
     scanf("%d", &a);
     printf("Enter b");
     scanf("%d", &b);
+
+    // int sum = a + b;
+    printf("sum is : %d", a+b);
 
     return 0;
 }
