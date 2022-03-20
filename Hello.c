@@ -2,6 +2,23 @@
 
 int main(){
 
+    /* First Program */
+    printf("Hello World");
+
+    /* Variables & Data Types + Constants & Keyword */
+    int number;
+    int age;
+    int price;
+
+    int age = 22;
+    float pi = 3.14;
+    char percentage = '%';
+
+    /* Output */
+    printf("age is %d", age);
+    printf("Pi is %f", pi);
+    printf("Character is %c", percentage);
+
     int age = 23;
     printf("My age is %d \n", age);
 
