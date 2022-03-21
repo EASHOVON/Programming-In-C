@@ -27,57 +27,57 @@ int main() {
 
     // Arithmetic Instructions
 
-    // int a = 1, b = 2, c = 3;
+    int a = 1, b = 2, c = 3;
 
     // Valid
-    // a = b + c;
+    a = b + c;
 
     // Invalid
     // b + c = a;
 
-    // printf("%d \n", 3 % 2);
-    // printf("%d \n", -3 % 2);
+    printf("%d \n", 3 % 2);
+    printf("%d \n", -3 % 2);
 
     // Type Conversion
-    // printf("sum of 2 & 3 : %d", 2 + 3);
-    // printf("sum of 2.0 & 3 : %f", 2.0 + 3);
-    // printf("sum of 2.0 & 3.0 : %f", 2.0 + 3.0);
+    printf("sum of 2 & 3 : %d", 2 + 3);
+    printf("sum of 2.0 & 3 : %f", 2.0 + 3);
+    printf("sum of 2.0 & 3.0 : %f", 2.0 + 3.0);
 
     // Associativity
-    // printf("Output : %d", 5 + 2 / 2 * 3);
+    printf("Output : %d", 5 + 2 / 2 * 3);
 
 
     // Relational Operator
-    // printf("%d \n", 4==4);
-    // printf("%d \n", 4<3);
-    // printf("%d \n", 3<4);
-    // printf("%d \n", 4<4);
-    // printf("%d \n", 4<=4);
+    printf("%d \n", 4==4);
+    printf("%d \n", 4<3);
+    printf("%d \n", 3<4);
+    printf("%d \n", 4<4);
+    printf("%d \n", 4<=4);
 
-    // printf("%d \n", 4>3);
-    // printf("%d \n", 3>4);
-    // printf("%d \n", 4>4);
-    // printf("%d \n", 4>=4);
-    // printf("%d \n", 4>=4);
-    // printf("%d \n", 4>=4);
+    printf("%d \n", 4>3);
+    printf("%d \n", 3>4);
+    printf("%d \n", 4>4);
+    printf("%d \n", 4>=4);
+    printf("%d \n", 4>=4);
+    printf("%d \n", 4>=4);
 
 
-    // printf("%d \n", 4!=4);
-    // printf("%d \n", 4!=4);
+    printf("%d \n", 4!=4);
+    printf("%d \n", 4!=4);
 
 // Logical Operator
 
-    // printf("%d \n", 3 < 4 && 3 < 5);
-    // printf("%d \n", 3 < 4 && 5 < 4);
+    printf("%d \n", 3 < 4 && 3 < 5);
+    printf("%d \n", 3 < 4 && 5 < 4);
 
     
-    // printf("%d \n", 3 < 4 && 5 < 4);
-    // printf("%d \n", 3 > 4 && 5 > 4);
-    // printf("%d \n", 3 < 4 && 3 < 5);
+    printf("%d \n", 3 < 4 && 5 < 4);
+    printf("%d \n", 3 > 4 && 5 > 4);
+    printf("%d \n", 3 < 4 && 3 < 5);
 
 
-    // printf("%d \n", !(3 < 4 && 3 < 5));
-    // printf("%d \n", !(4 < 3 || 5 < 3));
+    printf("%d \n", !(3 < 4 && 3 < 5));
+    printf("%d \n", !(4 < 3 || 5 < 3));
 
     // Assignment Operator
     int a = 10;
